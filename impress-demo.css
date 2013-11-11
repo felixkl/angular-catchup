@@ -286,6 +286,14 @@ a:focus {
     font-size: 30px;
 }
 
+p.version{
+    font-size: 25px;
+}
+
+q.version{
+    margin-top: 50px;
+}
+
 .brendan{
 	background-image: url("brendan_eich.jpg");
 }
