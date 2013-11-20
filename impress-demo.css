@@ -230,7 +230,7 @@ a:focus {
 
 .slide.question {
     color: white;
-    background-color: #0F90B7;
+    background-color: hsl(120, 100%, 20%); /* #0F90B7; */
 }
 
 .slide q {
@@ -290,7 +290,8 @@ p.version{
     font-size: 25px;
 }
 
-q.version{
+p.versions{
+    font-size: 26px;
     margin-top: 50px;
 }
 
@@ -298,7 +299,7 @@ q.version{
 	background-image: url("brendan_eich.jpg");
 }
 .slide .code{
-	color: #A76161;
+	color: #A76161; /* #9C0; */
 }
 
 #const q {
