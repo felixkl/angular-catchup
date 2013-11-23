@@ -303,7 +303,7 @@ p.versions{
 	background-image: url("brendan_eich.jpg");
 }
 .slide .code{
-	color: #A76161; /* #9C0; */
+	color: hsl(120, 100%, 20%);
 }
 
 #const q {
