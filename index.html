@@ -91,15 +91,25 @@
         </p>
     </div>
 -->
-    <div class="step slide" data-x="7000" data-y="-1500">
+    <div class="step slide animations" data-x="7000" data-y="-1500">
         <q class=feature>Animations - alles neu.</q>
-        <p>
-        * ng-animation auf Directive definieren<br>
-        * Animation durch CSS transitions schreiben<br>
-        * Directive sendet Events und setzt <s>CSS</s> HTML-Klassen
-        </p>
+        <pre>
+&lt;div class="some-element" ng-if="on"&gt;
+    Content ...
+&lt;/div&gt;
+        </pre>
+        <pre>
+.some-element.ng-enter {
+    transition: 1s linear all;
+    opacity: 0;
+}
+ 
+.some-element.ng-enter.ng-enter-active {
+    opacity: 1;
+}
+        </pre>
     </div>
-	<div class="step slide" data-x="8000" data-y="-1500">
+    <div class="step slide" data-x="8000" data-y="-1500">
         <q>$q Upgrades</q>
         <p class=small>
         * <span class=code>$q.always()</span> - kein nerviges $then(done, done) mehr<br>
@@ -110,11 +120,11 @@
     </div>
     <div class="step slide" data-x="9000" data-y="-1500">
         <q class>neue Directiven</q>
-        <p>
+        <p class=small>
         * <span class=code>ngIf</span> - macht Gunnar glücklich<br>
         * <span class=code>ngSrcset</span> - für jedes Device das richtige Bild<br>
-        * <span class=code>ngSwipe</span> - für Mobile
-        * <a href="http://localhost:9001/shop/#/login"><span class=code>ngFocus</span> & <span class=code>ngBlur</span></a>
+        * <span class=code>ngSwipe</span> - für Mobile<br>
+        * <a href="http://localhost:9001/shop/#/login"><span class=code>ngFocus</span> & <span class=code>ngBlur</span></a><br>
         * <a href="http://localhost:9001/shop/#/login"><span class=code>ngCopy, ngCut, ngPaste</span></a>
         </p>
     </div>
@@ -141,26 +151,26 @@
         </p>
     </div>-->
 
-    <div class="step slide" data-x="11000" data-y="-1500">
+    <div class="step slide" data-x="12000" data-y="-1500">
         <p>
         * <a href="http://localhost:9001/shop/#/login">Source Maps für angular minified files - Debugging auf Produktion</a>
         </p>
     </div>
 
-    <div class="step slide" data-x="12000" data-y="-1500">
+    <div class="step slide" data-x="13000" data-y="-1500">
         <p>
         * <a href="http://localhost:9001/shop/#/login">bessere Error Messages</a>
         </p>
     </div>
 
-    <div class="step slide question" data-x="13000" data-y="-1500">
+    <div class="step slide question" data-x="16000" data-y="-1500">
         <q>Wo es in Zukunft hingehen könnte</q>
     </div>
 
-    <div class="step slide" data-x="14000" data-y="-1500">
+    <div class="step slide" data-x="17000" data-y="-1500">
         <q>Angular <span class=red>♥</span> ECMAScript 6</q>
     </div>
-     <div class="step slide" data-x="15000" data-y="-1500">
+     <div class="step slide" data-x="18000" data-y="-1500">
         <p>
         * Angular modules => ES6 modules<br>
         * Module in eigene Resourcen (Files)<br>
@@ -168,12 +178,12 @@
         ** $filter => angular-filter.js<br>
         </p>
     </div>
-    <div class="step slide" data-x="16000" data-y="-1500">
+    <div class="step slide" data-x="19000" data-y="-1500">
         <p>
         <a href="http://localhost:9001/shop/#/login">Directiven mit Shadow DOM</a>
         </p>
     </div>
-    <div class="step slide" data-x="17000" data-y="-1500">
+    <div class="step slide" data-x="20000" data-y="-1500">
         <q>Binding<q>
         <p>
         * heute: dirty check & $apply()<br>

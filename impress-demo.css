@@ -233,6 +233,10 @@ a:focus {
     background-color: hsl(120, 100%, 20%); /* #0F90B7; */
 }
 
+.slide.animations q{
+    margin-top: 50px;
+}
+
 .slide q {
     display: block;
     font-size: 74px;
@@ -260,7 +264,7 @@ a:focus {
 }
 
 .slide p.small {
-    margin-top: 138px;
+    margin-top: 65px;
 }
 
 .slide p.very-small {
